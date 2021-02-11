@@ -1,0 +1,77 @@
+.contact {
+	color: #5863F8;
+	font-size: 14px;
+	font-family: 'Poppins';
+}
+.title {
+	font-size: 42px;
+	width: 378px;
+	font-family: 'Poppins extrabold';
+	color: #000000;
+	margin-top: 10px;
+}
+.textarea {
+	resize: none;
+	width: 720px;
+	height: 288px;
+	background-color: #F8F8F8;
+	border: 2px solid #E8E8E8;
+	margin-top: 50px;
+}
+.textarea:focus {
+	outline: none;
+}
+.textarea::placeholder,
+input::placeholder {
+	font-size: 14px;
+	color: #CECECE; 
+	font-family: 'Poppins regular';
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.textforms {
+	width: 352px;
+	margin-left: 16px;
+}
+.subject {
+	margin-top: 50px;
+}
+input {
+	width: 352px;
+	height: 60px;
+	background-color: #F8F8F8;
+	border: 2px solid #E8E8E8;
+	resize: none;
+	margin-top: 16px;
+}
+form {
+	display: flex;
+	align-items: center;
+}
+input:focus {
+	outline: none;
+}
+.button {
+	background-color: #5863F8;
+	width: 352px;
+	height: 60px;
+	border: none;
+	margin-top: 16px;
+	color: white;
+	font-size: 14px;
+	font-family: 'Poppins regular';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.button:focus {
+	outline: none;
+}
+.send-icon {
+	margin-left: 9.43px;
+}
+body {
+	display: flex;
+	justify-content: center;
+	padding-top: 88px;
+}
